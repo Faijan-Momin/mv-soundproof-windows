@@ -406,6 +406,7 @@ header{
         align-items: center;
         flex-direction: column;
         padding: 50px;
+        gap: 10px;
     }
     .window-display-div-single-product-before{
         height: fit-content;
@@ -432,7 +433,7 @@ header{
         align-items: center;
         flex-direction: column;
         overflow: hidden;
-        display: none;
+        display: block;
         padding: 25px;
     }
     .window-display-div-single-product-after h3{
