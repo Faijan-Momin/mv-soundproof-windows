@@ -99,8 +99,7 @@ header{
 }
 .header-logo img{
     height: 60px;
-    width: 60px;
-    border-radius: 10px;
+    width: 90px;
 }
 .header-nav{
     width: 90%;
@@ -156,8 +155,7 @@ header{
     }
     .header-logo img{
         height: 60px;
-        width: 60px;
-        border-radius: 10px;
+        width: 80px;
     }
     
     .header-nav{
