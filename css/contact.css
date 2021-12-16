@@ -1,0 +1,117 @@
+.contact-us-section{
+    height: fit-content;
+    width: 100%;
+    background-color: #fff;
+    background-image: url('https://image.freepik.com/free-vector/geometric-pattern-background-vector-white_53876-126684.jpg');
+}
+.contact-us-div{
+    height: fit-content;
+    width: 100%;
+    padding: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 5rem;
+}
+.contact-us-div-title{
+    font-size: 2rem;
+    color:#2e2e2e;
+    margin-bottom: 50px;
+}
+.contact-us-div-main{
+    width: 70%;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: #666 0px 2px 18px -5px;
+    padding: 2rem;
+
+}
+.contact-us-div-single-details{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: row;
+    gap: 20px;
+    width: 100%;
+    height: fit-content;
+    margin: 25px 0;
+}
+.contact-us-div-single-details-title{
+    font-size: 1.4rem;
+    font-weight: bold;
+    display: flex;
+    gap: 10px;
+}
+.contact-us-div-single-details-title img{
+    height: 1.4rem;
+    width: 1.4rem;
+}
+.contact-us-div-single-details-desc{
+    font-size: 1.2rem;
+}
+.contact-us-div-single-details-desc p{
+    margin-bottom: 10px;
+}
+footer{
+    position: absolute;
+    bottom: 0px;
+}
+@media only screen and (max-width:450px)  {
+    .contact-us-section{
+        height: fit-content;
+        width: 100%;
+        background-color: #fff;
+        background-image: url('https://image.freepik.com/free-vector/geometric-pattern-background-vector-white_53876-126684.jpg');
+    }
+    .contact-us-div{
+        height: fit-content;
+        width: 100%;
+        padding: 2em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding-top: 2rem;
+    }
+    .contact-us-div-title{
+        font-size: 1.8rem;
+        color:#2e2e2e;
+        margin-bottom: 30px;
+    }
+    .contact-us-div-main{
+        width: 98%;
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: #666 0px 2px 18px -5px;
+        padding: 2rem;
+    
+    }
+    .contact-us-div-single-details{
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 20px;
+        width: 100%;
+        height: fit-content;
+        margin: 25px 0;
+    }
+    .contact-us-div-single-details-title{
+        font-size: 1.4rem;
+        font-weight: bold;
+        display: flex;
+        gap: 10px;
+    }
+    .contact-us-div-single-details-title img{
+        height: 1.4rem;
+        width: 1.4rem;
+    }
+    .contact-us-div-single-details-desc{
+        font-size: 1.2rem;
+    }
+    .contact-us-div-single-details-desc p{
+        margin-bottom: 10px;
+    }
+    
+}

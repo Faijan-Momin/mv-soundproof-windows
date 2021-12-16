@@ -1,0 +1,97 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MV Soundproof Windows</title>
+
+     <!-- Link Swiper's CSS -->
+     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+
+     <!-- Styles -->
+     <link rel="stylesheet" href="css/style.css?v=1.2">
+     <link rel="stylesheet" href="css/contact.css?v=1.0">
+</head>
+<body>
+    
+    <header>
+        <div class="header">
+            <div class="mobile-hambuger">
+                <div class="menu-wrapper">
+                    <div class="hamburger-menu"></div>	  
+                </div>
+            </div>
+            <div class="header-logo">
+                <img src="./contents/logo/logo.png" alt="logo">
+            </div>
+            <div id="header-nav" class="header-nav">
+                <nav id="header-navbar">
+                    <ul class="navbar-ul">
+                        <li class="navbar-li" onclick="window.location.replace('index.html');">HOME</li>
+                        <li class="navbar-li">ABOUT</li>
+                        <li class="navbar-li">PRODUCTS</li>
+                        <li class="navbar-li">ADVANTAGE</li>
+                        <li class="navbar-li" onclick="window.location.replace('gallery.html');">GALLERY</li>
+                        <li class="navbar-li" onclick="window.location.replace('contact.html');">CONTACT</li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <section class="contact-us-section">
+        <div class="contact-us-div">
+            <div class="contact-us-div-title">
+                <h3>GET IN TOUCH</h3>
+            </div>
+            <div class="contact-us-div-main">
+                 <div class="contact-us-div-single-details">
+                    <div class="contact-us-div-single-details-title">
+                        <img src="https://cdn-icons-png.flaticon.com/512/592/592245.png" alt="">
+                        <p>ADDRESS -</p>
+                    </div>
+                    <div class="contact-us-div-single-details-desc">
+                        <p>Plot no RTC 68, TTC industrial area, rabale thane</p>
+                    </div>
+                 </div>
+                 <div class="contact-us-div-single-details">
+                    <div class="contact-us-div-single-details-title">
+                        <img src="https://cdn-icons-png.flaticon.com/512/483/483947.png" alt="">
+                        <p>Contacts -</p>
+                    </div>
+                    <div class="contact-us-div-single-details-desc">
+                        <p>+91-9867236124</p>
+                        <p>+91-9320507014</p>
+                    </div>
+                 </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <footer>
+        <p>Copyright 2021 &copy; MV Soundproof Windows</p>
+    </footer>
+
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.7.1/jquery.min.js" integrity="sha512-BkBgWiL0N/EFIbLZYGTgbksKG5bS6PtwnWvVk3gccv+KhtK/4wkLxCRGh+kelKiXx7Ey4jfTabLg3AEIPC7ENA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>    <!-- Script -->
+    <script src="js/home.js"></script>
+
+    <script>
+        
+       
+        (function () {
+            $('.menu-wrapper').on('click', function() {
+                $('.hamburger-menu').toggleClass('animate');
+                $('.header-nav').toggleClass('active')
+            })
+        })();
+        
+
+    </script>
+
+</body>
+</html>

@@ -29,7 +29,7 @@
                       <li class="navbar-li">PRODUCTS</li>
                       <li class="navbar-li">ADVANTAGE</li>
                       <li class="navbar-li" onclick="window.location.replace('gallery.html');">GALLERY</li>
-                      <li class="navbar-li">CONTACT</li>
+                      <li class="navbar-li" onclick="window.location.replace('contact.html');">CONTACT</li>
                   </ul>
               </nav>
           </div>
@@ -231,7 +231,28 @@
         </div>
       </div>
     </section>
+ <footer>
+        <p>Copyright 2021 &copy; MV Soundproof Windows</p>
+    </footer>
 
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.7.1/jquery.min.js" integrity="sha512-BkBgWiL0N/EFIbLZYGTgbksKG5bS6PtwnWvVk3gccv+KhtK/4wkLxCRGh+kelKiXx7Ey4jfTabLg3AEIPC7ENA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>    <!-- Script -->
+    <script src="js/home.js"></script>
+
+    <script>
+        
+        (function () {
+            $('.menu-wrapper').on('click', function() {
+                $('.hamburger-menu').toggleClass('animate');
+                $('.header-nav').toggleClass('active')
+            })
+        })();
+        
+
+    </script>
 
 
 
