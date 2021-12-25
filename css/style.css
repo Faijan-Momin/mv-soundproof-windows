@@ -24,7 +24,7 @@ body{
 }
 header{
     background-color: #fff;
-    height: 80px;
+    height: 100px;
     width: 100%;
     box-shadow: 0px 2px 12px -5px #666;
     cursor: auto;
@@ -99,8 +99,8 @@ header{
     width: 10%;
 }
 .header-logo img{
-    height: 60px;
-    width: 90px;
+    height: 80px;
+    width: 110px;
 }
 .header-nav{
     width: 90%;
@@ -133,7 +133,7 @@ header{
             
     header{
         background-color: #fff;
-        height: 80px;
+        height: 110px;
         width: 100%;
         box-shadow: 0px 2px 12px -5px #666;
     }
@@ -147,16 +147,16 @@ header{
     }
     .mobile-hambuger{
         height: fit-content;
-        width: 40%;
+        width: 30%;
         display: block;
         margin-top: -15px;
     }
     .header-logo{
-        width: 60%;
+        width: 68%;
     }
     .header-logo img{
-        height: 60px;
-        width: 80px;
+        height: 90px;
+        width: 125px;
     }
     
     .header-nav{
@@ -170,6 +170,7 @@ header{
         align-items: center;
         background-color: rgba(0, 0, 0, 0.199);
         transition: left 300ms ease-in-out;
+        z-index: 9999;
 
     }
     .header-nav.active{
@@ -183,6 +184,7 @@ header{
         align-items: center;
         background-color: rgba(0, 0, 0, 0.199);
         transition: left 300ms ease-in-out;
+        z-index: 9999;
     }
     #header-navbar{
         width: 100%;

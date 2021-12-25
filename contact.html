@@ -28,9 +28,9 @@
                 <nav id="header-navbar">
                     <ul class="navbar-ul">
                         <li class="navbar-li" onclick="window.location.replace('index.html');">HOME</li>
-                        <li class="navbar-li" onclick="window.location.href = 'index.html#products'">PRODUCTS</li>
-                        <li class="navbar-li" onclick="window.location.href = 'index.html#advantages'">ADVANTAGE</li>
-                        <li class="navbar-li" onclick="window.location.href = 'index.html#about-us'">ABOUT</li>
+                        <li class="navbar-li" onclick="ham('products');">PRODUCTS</li>
+                        <li class="navbar-li" onclick="ham('advantages');">ADVANTAGE</li>
+                        <li class="navbar-li" onclick="ham('about');">ABOUT</li>
                         <li class="navbar-li" onclick="window.location.replace('gallery.html');">GALLERY</li>
                         <li class="navbar-li" onclick="window.location.replace('contact.html');">CONTACT</li>
                     </ul>
@@ -89,6 +89,20 @@
                 $('.header-nav').toggleClass('active')
             })
         })();
+
+        function ham(params) {
+            if(params == "products"){
+                window.location.href = "index.html#products";
+            }
+            if(params == "advantages"){
+                window.location.href = "index.html#advantages";
+            }
+            if(params == "about"){
+                window.location.href = "index.html#about-us";
+            }
+            $('.header-nav').toggleClass('active');
+            $('.hamburger-menu').toggleClass('animate');
+        }
         
 
     </script>

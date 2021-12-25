@@ -28,9 +28,9 @@
                 <nav id="header-navbar">
                     <ul class="navbar-ul">
                         <li class="navbar-li" onclick="window.location.replace('index.html');">HOME</li>
-                        <li class="navbar-li" onclick="window.location.href = '#products'">PRODUCTS</li>
-                        <li class="navbar-li" onclick="window.location.href = '#advantages'">ADVANTAGE</li>
-                        <li class="navbar-li" onclick="window.location.href = '#about-us'">ABOUT</li>
+                        <li class="navbar-li" onclick="ham('products');">PRODUCTS</li>
+                        <li class="navbar-li" onclick="ham('advantages');">ADVANTAGE</li>
+                        <li class="navbar-li" onclick="ham('about');">ABOUT</li>
                         <li class="navbar-li" onclick="window.location.replace('gallery.html');">GALLERY</li>
                         <li class="navbar-li" onclick="window.location.replace('contact.html');">CONTACT</li>
                     </ul>
@@ -392,7 +392,7 @@
                 $(this).closest('.window-display-div-single-product-before').show();
         });
 
-        (function () {
+        $(document).ready(function () {
             $('.menu-wrapper').on('click', function() {
                 $('.hamburger-menu').toggleClass('animate');
                 $('.header-nav').toggleClass('active')
@@ -407,6 +407,19 @@
             };
         });
 
+        function ham(params) {
+            if(params == "products"){
+                window.location.href = "#products";
+            }
+            if(params == "advantages"){
+                window.location.href = "#advantages";
+            }
+            if(params == "about"){
+                window.location.href = "#about-us";
+            }
+            $('.header-nav').toggleClass('active');
+            $('.hamburger-menu').toggleClass('animate');
+        }
     </script>
 
 </body>
