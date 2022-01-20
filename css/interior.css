@@ -2,7 +2,7 @@
 /* swiper-images-section */
 
 .swiper-images-section{
-    height: calc(100vh - 80px);
+    height: calc(100vh - 125px);
     width: 100%;
     background-color: #666;
 }
@@ -36,7 +36,9 @@
     }
         
     .swiper-images-section{
-        height: calc(100vh - 110px);
+        height: calc(100vh - 125px);
+        padding-top:20px ;
+
         width: 100%;
         background-color: #666;
     }

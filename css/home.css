@@ -3,7 +3,7 @@
 /* swiper-images-section */
 
 .swiper-images-section{
-    height: calc(100vh - 80px);
+    height: calc(100vh - 125px);
     width: 100%;
     background-color: #666;
 }
@@ -38,7 +38,8 @@
     }
         
     .swiper-images-section{
-        height: calc(100vh - 80px);
+        height: calc(100vh - 125px);
+        padding-top:20px ;
         width: 100%;
         background-color: #666;
     }
@@ -458,7 +459,7 @@ figure.effect-julia:hover p {
         padding:10% 5%;
     }
     .features-section-all-features{
-        height: 100vh;
+        height: fit-content;
         width: 100%;
         display: grid;
         grid-template-rows: 20% 20% 20% 20% 20%;

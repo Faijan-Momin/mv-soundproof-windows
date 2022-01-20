@@ -19,7 +19,10 @@ body {
   color: #252a32;
   background: #ffffff;
 }
-
+header{
+  position: relative;
+  top: 0px;
+}
 .gallery-section-title{
     font-size: 22px;
     text-align: center;
